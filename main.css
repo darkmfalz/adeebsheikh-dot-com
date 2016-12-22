@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+	font-family: "Arial", Helvetica, sans-serif;
+	background-color: #DCEDC8;
+}
+
+	.wrapper{
+		min-height:100%;
+		overflow: auto;
+		padding-bottom: 50px;
+	}
+
+	.footer{
+		/*Sticky footer CSS courtesy of: http://www.cssstickyfooter.com/;*/
+		background-color: white;
+		text-align: center;
+		margin-top: -50px;
+		height: 80px;
+		clear: both;
+		color: gray;
+	}
